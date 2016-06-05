@@ -1,0 +1,1010 @@
+@media (min-width: 768px) and (max-width: 979px) {
+	#menu {
+		display: none;	
+	}
+    
+	#menu2 {
+		display: none;	
+	}
+	
+	#mobile-nav {
+    	display: block;
+		float: right;
+	}
+    
+	#mobile-nav2 {
+    	display: block;
+		float: right;
+	}
+	
+	#menu-nav-mobile {
+		margin: 0;
+	}
+	
+    #menu-nav2-mobile {
+		margin: 0;
+	}
+	
+	header .sticky-nav #mobile-nav,
+	header .sticky-nav.stuck #mobile-nav {
+		margin-right: 20px;	
+	}
+    
+	header .sticky-nav #mobile-nav2,
+	header .sticky-nav.stuck #mobile-nav2 {
+		margin-right: 20px;	
+	}
+	
+	#social-area #social ul li {
+		margin-left: 15px;
+	}
+	
+	#social-area #social ul li a {
+		width: 50px;
+		height: 50px;
+	}
+	
+	#social-area #social ul li a span {
+		font-size: 24px;
+		line-height: 50px;
+	}
+	
+	#twitter-feed {
+		padding-top: 110px;
+		padding-bottom: 110px;	
+	}
+	
+	.info-block a.button {
+    	margin-top: 20px;
+    	position: inherit;
+	}
+	
+	.info-text {
+		padding-right: 0;	
+	}
+    
+     #projects {
+         width: 100%; 
+         padding: 0;
+         margin: 0 auto;
+     }
+    
+.emaillink ul li {
+	margin: 0;
+	color: #55606a;
+	font-size: 22px;
+    text-align: center; 
+    width: 100%;
+    }
+    
+    .emaillink ul li a {
+	margin: 0;
+	color: #55606a;
+	font-size: 22px;
+    text-align: center; 
+    width: 100%;
+    }
+
+    .emaillink ul li:hover a,
+    .emaillink ul li.active a { 
+        color: #edb50a;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	#back-to-top {
+		display: none !important;	
+	}
+	
+	#home-slider {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	
+	header .sticky-nav {
+		position: relative;	
+	}
+	
+	header .sticky-nav,
+	#navigation-mobile,
+	.page,
+	.page-alternate,
+	#twitter-feed,
+	footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;	
+	}
+	
+	header .sticky-nav #logo {
+		margin-left: 0;
+	}
+	
+	header .sticky-nav.stuck #logo {
+		margin-left: 20px;	
+	}
+	
+	header .sticky-nav #menu {
+		margin-right: 0;
+	}
+	
+	header .sticky-nav.stuck #menu {
+		margin-right: 20px;	
+	}
+	
+	#menu {
+		display: none;	
+	}
+	
+	#menu2 {
+		display: none;	
+	}
+	
+	#mobile-nav {
+    	display: block;
+		float: right;
+	}
+    
+	header .sticky-nav #menu2 {
+		margin-right: 0;
+	}
+	
+	header .sticky-nav.stuck #menu2 {
+		margin-right: 20px;	
+	}
+	
+	#menu2 {
+		display: none;	
+	}
+	
+	#mobile-nav2 {
+    	display: block;
+		float: right;
+	}
+	
+	#menu-nav-mobile {
+		margin-left: -20px;
+		margin-right: -20px;
+		margin-bottom: 0;
+	}
+	
+	header .sticky-nav.stuck #mobile-nav {
+		margin-right: 20px;	
+	}
+	
+	header .sticky-nav.stuck #mobile-nav2 {
+		margin-right: 20px;	
+	}
+	
+	.work-nav {
+		margin-bottom: 30px;	
+	}
+	
+	.type-work {
+		background: url(../img/filter-icon.png) no-repeat;
+		width: 16px;
+		height: 16px;
+		display: inline-block;
+		text-indent: -9999px;
+		margin-bottom: 0;
+		position: relative;
+		line-height: 10px;
+	}
+	
+	.work-nav #filters,
+	.work-nav #filters li {
+		display: inline-block;
+	}
+	
+	.work-nav #filters li {
+		margin:0 10px 0 0;	
+	}
+	
+	.work-nav #filters li a {
+		font-size: 13px;
+		text-transform: uppercase;	
+	}
+	
+	#about .profile {
+		margin-bottom: 30px;	
+	}
+	
+	#about .profile:last-child {
+		margin-bottom: 0;	
+	}
+	
+	#response {
+		margin-bottom: 30px;	
+	}
+	
+	.contact-details {
+		border-top: 1px dashed #3C3F45;
+		padding-top: 30px;
+		text-align: center;	
+	}
+	
+	#contact-form .submit {
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;	
+	}
+	
+	#social-area #social ul li:first-child,
+	#social-area #social ul li {
+		margin: 15px;
+	}
+	
+	#social-area #social ul li a {
+		width: 50px;
+		height: 50px;
+	}
+	
+	#social-area #social ul li a span {
+		font-size: 24px;
+		line-height: 50px;
+	}
+	
+	#twitter-feed {
+		padding-top: 90px;
+		padding-bottom: 100px;	
+	}
+	
+	#ticker .tweet_list li {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	
+	#ticker .tweet_list .tweet_time a {
+		font-size: 13px;
+		margin-left: 5px;	
+	}
+	
+	.info-block a.button {
+    	margin-top: 20px;
+    	position: inherit;
+		display: block;
+	}
+	
+	.info-text {
+		padding-right: 0;	
+	}
+    
+    .presentation {
+    position: absolute;
+    text-align: left;
+    z-index: 40;
+    max-width: 62%;
+    margin-top: 20%;
+    margin-left: 19%;
+    color: #26292e;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+    
+    .timelineimg { 
+    display: none;
+    }
+    
+    .cel1, .cel2, .cel3, .cel4, .cel5, .cel6, .cel7, .cel8 {
+    color: #161204;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    /*padding: 15%;*/
+    }
+    
+    .column1, .column2, .column3 {
+    width: 100%;
+    /*padding: 0 15%;*/
+    margin: 0px;
+    }
+    
+    #social3 li {
+    font-size: 22px;
+    }
+    
+    .emaillink a {
+	margin: 0;
+	color: #55606a;
+	font-size: 22px;
+	line-height: 70px;
+    text-align: center; 
+    }
+
+    .emaillink:hover a,
+    .emaillink.active a { 
+        color: #edb50a;
+    }
+
+    .emaillink ul li {
+	margin: 0;
+	color: #55606a;
+	font-size: 22px;
+    text-align: center; 
+    width: 100%;
+    }
+    
+    .emaillink ul li a {
+	margin: 0;
+	color: #55606a;
+	font-size: 22px;
+    text-align: center; 
+    width: 100%;
+    }
+
+    .emaillink ul li:hover a,
+    .emaillink ul li.active a { 
+        color: #edb50a;
+    }
+
+}
+
+@media (max-width: 480px) {
+	#back-to-top {
+		display: none !important;	
+	}
+	
+	#home-slider {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	
+	#home-slider ul#slide-list {
+		display: none;	
+	}
+	
+	header .sticky-nav {
+		position: relative;	
+	}
+	
+	header .sticky-nav,
+	#navigation-mobile,
+	.page,
+	.page-alternate,
+	#twitter-feed,
+	footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;	
+	}
+	
+	header .sticky-nav #logo {
+		margin-left: 0;
+	}
+	
+	header .sticky-nav.stuck #logo {
+		margin-left: 20px;	
+	}
+	
+	header .sticky-nav #menu {
+		margin-right: 0;
+	}
+	
+	header .sticky-nav.stuck #menu {
+		margin-right: 20px;	
+	}
+	
+	#menu {
+		display: none;	
+	}
+	
+	#menu2 {
+		display: none;	
+	}
+	
+	#mobile-nav {
+    	display: block;
+		float: right;
+	}
+    
+	header .sticky-nav #menu2 {
+		margin-right: 0;
+	}
+	
+	header .sticky-nav.stuck #menu2 {
+		margin-right: 20px;	
+	}
+	
+	#menu2 {
+		display: none;	
+	}
+	
+	#mobile-nav2 {
+    	display: block;
+		float: right;
+	}
+	
+	#menu-nav-mobile {
+		margin-left: -20px;
+		margin-right: -20px;
+		margin-bottom: 0;
+	}
+	
+	#menu2-nav-mobile {
+		margin-left: -20px;
+		margin-right: -20px;
+		margin-bottom: 0;
+	}
+	
+	#navigation-mobile li a {
+		font-size: 14px;
+		padding: 12px 0;
+	}
+	
+	header .sticky-nav.stuck #mobile-nav {
+		margin-right: 20px;	
+	}
+    
+	header .sticky-nav.stuck #mobile-nav2 {
+		margin-right: 20px;	
+	}
+	
+	.work-nav {
+		margin-bottom: 30px;	
+	}
+	
+	.type-work {
+		background: url(../img/filter-icon.png) no-repeat;
+		width: 16px;
+		height: 16px;
+		display: inline-block;
+		text-indent: -9999px;
+		margin-bottom: 0;
+		position: relative;
+		line-height: 10px;
+	}
+	
+	.work-nav #filters li:first-child {
+		margin-left: 0;	
+	}
+	
+	.work-nav #filters,
+	.work-nav #filters li {
+		display: inline-block;
+	}
+	
+	.work-nav #filters li {
+		margin:0 10px 0 0;	
+	}
+	
+	.work-nav #filters li a {
+		font-size: 13px;
+		text-transform: uppercase;	
+	}
+	
+	#about .profile {
+		margin-bottom: 30px;	
+	}
+	
+	#about .profile:last-child {
+		margin-bottom: 0;	
+	}
+	
+	#response {
+		margin-bottom: 30px;	
+	}
+	
+	.contact-details {
+		border-top: 1px dashed #3C3F45;
+		padding-top: 30px;
+		text-align: center;	
+	}
+	
+	#contact-form .submit {
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;	
+	}
+	
+	#social-area #social ul li:first-child,
+	#social-area #social ul li {
+		margin: 15px;
+	}
+	
+	#social-area #social ul li a {
+		width: 50px;
+		height: 50px;
+	}
+	
+	#social-area #social ul li a span {
+		font-size: 24px;
+		line-height: 50px;
+	}
+	
+	#twitter-feed {
+		padding-top: 90px;
+		padding-bottom: 100px;	
+	}
+	
+	#ticker .tweet_list li {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	
+	#ticker .tweet_list .tweet_time a {
+		font-size: 12px;
+		margin-left: 3px;	
+	}
+	
+	.info-block a.button {
+    	margin-top: 20px;
+    	position: inherit;
+		display: block;
+	}
+	
+	.info-text {
+		padding-right: 0;	
+	}
+    
+    .presentation {
+    position: absolute;
+    text-align: left;
+    z-index: 40;
+    max-width: 62%;
+    margin-top: 20%;
+    margin-left: 19%;
+    color: #26292e;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+    
+    .span9 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+    
+    .title2 {
+	font-size: 34px;
+    font-weight: 400;
+	margin: 0 0 10px 0;
+    color:#2F3238;
+    margin-left: 0px;
+    margin-top: 85px;
+    margin-bottom: 44px;
+     }
+    
+    .timelineimg { 
+    display: none;
+    }
+    
+    .cel1, .cel2, .cel3, .cel4, .cel5, .cel6, .cel7, .cel8 {
+    color: #161204;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    /*padding: 15%;*/
+    }
+    
+    .column1, .column2, .column3 {
+    width: 100%;
+    /*padding: 0 15%;*/
+    margin: 0px;
+    }
+    
+    #social3 li {
+    font-size: 18px;
+    }
+    
+    .emaillink a {
+	margin: 0;
+	color: #55606a;
+	font-size: 18px;
+	line-height: 70px;
+    text-align: center; 
+    }
+
+    .emaillink:hover a,
+    .emaillink.active a { 
+        color: #edb50a;
+    }
+    
+    .emaillink ul li {
+	margin: 0;
+	color: #55606a;
+	font-size: 22px;
+    text-align: center; 
+    width: 100%;
+    }
+    
+    .emaillink ul li a {
+	margin: 0;
+	color: #55606a;
+	font-size: 22px;
+    text-align: center; 
+    width: 100%;
+    }
+
+    .emaillink ul li:hover a,
+    .emaillink ul li.active a { 
+        color: #edb50a;
+    }
+    
+    /*------PROJECTS SECTION-----------*/
+
+#entireproject {
+    width: 100%;
+    background-color: #fefefe;
+    color: #26292e;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+#projectwidth {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100%;
+}
+
+#projectheader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#projectheader img {
+    width: 80%;
+}
+
+.projecttitle {
+    width: 80%;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.projectcategorie {
+    width: 80%;
+    font-size: 20px;
+    margin-top: 18px;
+    float: left;
+}
+
+.projectdescription {
+    width: 80%;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.projectdescription a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #161204;
+}
+
+.projectdescription:hover a ,
+.projectdescription:active a {
+	color: #edb50a;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.projprocess {
+    width: 80%;
+    clear: both;
+    
+}
+
+.projlabel {
+    width: 50%;
+    font-size: 24px;
+    padding-left: 10%;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.projlabel2 {
+    width: 70%;
+    font-size: 24px;
+    line-height: 34px;
+    padding: 0 15%;
+    padding-top: 50px;
+}
+
+.projlabel2 a {
+    text-align: left;
+    font-weight: 500;
+    color: #161204;
+}
+
+.projlabel2:hover a ,
+.projlabel2:active a {
+	color: #edb50a;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.projlabelsub {
+font-size: 16px;
+line-height: 22px; 
+padding-left: 10%;
+}
+
+.ProjectImage1 {
+    width: 80%;
+    max-width: 489px;
+}
+
+.ProjectImage2 {
+    width: 80%;
+    max-width: 489px;
+}
+
+.ProjectImage3 {
+    width: 80%;
+    clear: both;
+    mmax-width: 316px;
+}
+
+.ProjectImage4 {
+    width: 80%;
+    clear: both;
+    max-width: 316px;
+    margin-top: 15px;
+}
+    
+}
+
+@media (max-width: 320px) {
+	#navigation-mobile li a {
+		padding: 20px 0;
+	}
+	
+	.work-nav #filters li a {
+		font-size: 12px;
+	}
+	
+	#twitter-feed {
+		padding-top: 90px;
+		padding-bottom: 120px;	
+	}
+    
+    .presentation {
+    position: absolute;
+    text-align: left;
+    z-index: 40;
+    max-width: 62%;
+    margin-top: 20%;
+    margin-left: 19%;
+    color: #26292e;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+    
+    .span9 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+    
+     .title2 {
+	font-size: 34px;
+    font-weight: 400;
+	margin: 0 0 10px 0;
+    color:#2F3238;
+    margin-left: 0px;
+    margin-top: 85px;
+    margin-bottom: 44px;
+     }
+    
+    .timelineimg { 
+    display: none;
+    }
+    
+    .cel1, .cel2, .cel3, .cel4, .cel5, .cel6, .cel7, .cel8 {
+    color: #161204;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    /*padding: 15%;*/
+    }
+    
+    .column1, .column2, .column3 {
+    width: 100%;
+    /*padding: 0 15%;*/
+    margin: 0px;
+    }
+    
+    .emaillink a {
+	margin: 0;
+	color: #55606a;
+	font-size: 14px;
+	line-height: 70px;
+    text-align: center; 
+    }
+
+    .emaillink:hover a,
+    .emaillink.active a { 
+        color: #edb50a;
+    }
+    
+    .social {
+    width: 100%;
+    }
+    
+    .social-icons li {
+    max-width: 50%;
+    float: left;
+	margin-left: 8px;	
+    }
+
+    /*------PROJECTS SECTION-----------*/
+
+#entireproject {
+    width: 100%;
+    background-color: #fefefe;
+    color: #26292e;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    margin-left: -20px;
+    margin-right: -20px;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+}
+
+#projectwidth {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100%;
+}
+
+#projectheader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#projectheader img {
+    width: 100%;
+}
+
+.projecttitle {
+    width: 100%;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.projectcategorie {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 18px;
+    float: left;
+}
+
+.projectdescription {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.projectdescription a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #161204;
+}
+
+.projectdescription:hover a ,
+.projectdescription:active a {
+	color: #edb50a;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.projprocess {
+    width: 100%;
+    clear: both;
+    
+}
+
+.projlabel {
+    width: 100%;
+    font-size: 24px;
+    padding-left: 10%;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.projlabel2 {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    /*padding: 0 15%;*/
+    padding-top: 30px;
+}
+
+.projlabel2 a {
+    text-align: left;
+    font-weight: 500;
+    color: #161204;
+}
+
+.projlabel2:hover a ,
+.projlabel2:active a {
+	color: #edb50a;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.projlabelsub {
+font-size: 16px;
+line-height:  18px; 
+padding-left: 10%;
+}
+
+.ProjectImage1 {
+    width: 100%;
+    max-width: 489px;
+}
+
+.ProjectImage2 {
+    width: 100%;
+    max-width: 489px;
+}
+
+.ProjectImage3 {
+    width: 100%;
+    mmax-width: 316px;
+}
+
+.ProjectImage4 {
+    width: 100%;
+    max-width: 316px;
+    margin-top: 15px;
+}
+    
+}
+
+
+/* Retina Display */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+ 	only screen and (-moz-min-device-pixel-ratio: 2),
+  	only screen and (-o-min-device-pixel-ratio: 2/1),
+  	only screen and (min-device-pixel-ratio: 2),
+  	only screen and (min-resolution: 2dppx) {
+		
+		header #logo a {
+			background-image: url(../img/logo_@2x.png);
+			background-size: 250px 30px;
+		}
+		
+		.menu-nav {
+			background-image: url(../img/menu-mobile_@2x.png);
+			background-size: 16px 32px;
+		}
+        
+		.menu-nav2 {
+			background-image: url(../img/menu-mobile_@2x.png);
+			background-size: 16px 32px;
+		}
+		
+		.type-work {
+			background-image: url(../img/filter-icon_@2x.png);
+			background-size: 16px 16px;
+		}
+        
+	}
+
+
